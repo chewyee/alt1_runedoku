@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Solver the sudoku puzzle to quickly get runes on ironman</title>
+	<link rel="stylesheet" type="text/css" href="https://runeapps.org/nis/nis.css" />
+	<link rel="stylesheet" type="text/css" href="https://runeapps.org/nis/alt1-currentskin/skinstyle.css"/>
+	<link rel="stylesheet" type="text/css" href="https://runeapps.org/runeappslib.css" />
+	<script type="text/javascript" src="https://runeapps.org/runeappslib.js"></script>
+	<script type="text/javascript" src="https://runeapps.org/imagedetect.js"></script>
+	<script type="text/javascript" src="https://runeapps.org/alt1lib.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
+	<style type="text/css">
+		#result{position:relative; width:270px; height:270px; border:1px solid gray; padding:1px; margin:0px auto;}
+			.resultrune{position:absolute; padding:1px;}
+			.selected{outline:1px solid black; z-index:1; background:orange !important;}
+		#solution{margin:0px; -4px;}
+		.runefiller{width:26px; height:26px; margin:1px; background:gray; border-radius:13px;}
+		body{padding:0px 4px 0px;}
+	</style>
+</head>
+<body class="nis" onload="start();">
+	<div class="nisbutton" onclick="clicksolve();">Solve</div>
+	<div>Talk Ali Morrisane: _1__32_3</div>
+	<div id="message"></div>
+	<div id="solution"></div>
+	<div id="result"></div>
+</body>
+</html>
